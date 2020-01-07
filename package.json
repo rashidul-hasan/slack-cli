@@ -1,0 +1,21 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Neal (https://reverentgeek.com)",
+  "license": "MIT",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.3",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "yargs": "^13.2.4"
+  }
+}
